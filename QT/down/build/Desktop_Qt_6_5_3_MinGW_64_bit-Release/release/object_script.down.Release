@@ -1,0 +1,13 @@
+release/CP.o
+release/LI.o
+release/PP.o
+release/RU.o
+release/UU.o
+release/main.o
+release/mainwindow.o
+release/moc_CP.o
+release/moc_LI.o
+release/moc_PP.o
+release/moc_RU.o
+release/moc_UU.o
+release/moc_mainwindow.o

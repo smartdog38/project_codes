@@ -1,0 +1,13 @@
+debug/CP.o
+debug/LI.o
+debug/PP.o
+debug/RU.o
+debug/UU.o
+debug/main.o
+debug/mainwindow.o
+debug/moc_CP.o
+debug/moc_LI.o
+debug/moc_PP.o
+debug/moc_RU.o
+debug/moc_UU.o
+debug/moc_mainwindow.o
