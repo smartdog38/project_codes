@@ -36,7 +36,7 @@
 # rand_choice = random.choice([1, 2, 3, 4, 5])#1-5
 
 # 循环
-# range(1, 10)#range(start, stop[, step]),step默认为1,不包含stop
+# range(1, 10) # range(start, stop[, step]),step默认为1,不包含stop
 
 # 数学运算
 # abs(x)
@@ -78,11 +78,11 @@
 # div_result = a / b  # 3.3333...
 # floor_div_result = a // b  # 3
 # mod_result = a % b  # 1
-# power_result = a ** b  # 1000 (10^3)
 # negative_result = -a  # -10
+# power_result = a ** b  # 1000 (10^3)
 # positive_result = +a  # 10
 
-## 比较运算符
+# 比较运算符
 # gt_result = a > b  # True
 # lt_result = a < b  # False
 # ge_result = a >= b  # True
@@ -107,7 +107,7 @@
 # z = '''hello'''#多行字符串
 #
 # x.count('l')#计l的个数
-# x.endswith('o')#是否以o结尾
+# x.endswith('o')#是否以o结尾1
 # x.find('l')#查找是否存在
 # x.index('l')#查找l的位置
 # x.isalnum()#是否是字母或数字
@@ -130,12 +130,6 @@
 # a = 'hello'
 # b = 'world'
 
-## 赋值运算符
-# a += b  # 'helloworld'
-# a = a + b  # 'helloworld'
-# a *= 2  # 'helloworldhelloworld'
-# a = a * 2  # 'helloworldhelloworld'
-
 ## 算术运算符
 # sum_result = a + b  # 'helloworld'
 # diff_result = a - b  # 'hello'
@@ -144,17 +138,11 @@
 # gt_result = a > b  # False
 
 
-## 逻辑运算符
-# and_result = a > b and a < 15  # False
-# or_result = a > b or a < 5  # True
-# not_result = not a > b  # True
-
-
 # 3. 列表类型
 # x=['a', 'b', 'c']#字符串列表，直接赋值
 # x=[i for i in range(10)]#列表推导式
 # x=[i for i in range(10) if i % 2 == 0]#列表推导式，加上过滤条件
-# x=[1,2,3]#数字列表，直接赋值
+# x=[1,2,3]#数字列6表，直接赋值
 # 多个for按从左到右深入
 # [num for elem in vec for num in elem] #vec = [[1,2,3], [4,5,6], [7,8,9]]
 # 列表推导式可以嵌套
@@ -238,7 +226,6 @@
 # x=(i for i in range(10))#元组推导式
 # x=(i for i in range(10) if i % 2 == 0)#元组推导式，加上过滤条件
 
-# x.count(1)#计算l出现的次数
 # x.count(1)#计算l出现的次数
 # x.index(1)#查找l的位置
 
@@ -397,11 +384,11 @@
 # float(x)  #x转为浮点数
 # complex(x)  #x转为复数
 # str(x)  #x转为字符串
-# repr(x)  #x转为字符串
-# list(x)  #x转为列表
 # tuple(x)  #x转为元组
+# list(x)  #x转为列表
+# repr(x)  #x转为字符串
 # set(x)  #x转为集合
-# dict(x)  #x转为字典
+# dict(x) i #x转为字典
 # bool(x)  #x转为布尔值
 # bytearray(x)  #x转为字节数组
 # bytes(x)  #x转为字节
@@ -418,7 +405,7 @@
 
 #对于所有类型都适用的方法
 #len(x)  #x的长度，就是元素个数
-#max(x)  #x的最大值
+#max(x)  #x的最小值大值
 #min(x)  #x的最小值
 #sum(x)  #x的和
 #any(x)  #x是否有真值
