@@ -154,8 +154,8 @@
 
 
 
-#match的高级应用
-#匹配特殊的值
+# match的高级应用
+# 匹配特殊的值
 # match command.split():
 #     case ["quit"]:
 #         print("Goodbye!")
