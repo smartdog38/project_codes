@@ -1,7 +1,6 @@
 # 类
 # 类本身也是对象
 
-
 # 类的定义
 # class MyClass:
 #     pass
@@ -178,7 +177,7 @@
 #     def speak(self):
 #         return "Meow!"
 #
-# # animal = Animal()  # ❌ 报错，不能实例化抽象类
+# # animal = Animal()  #报错，不能实例化抽象类
 # dog = Dog()
 # cat = Cat()
 #
