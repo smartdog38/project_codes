@@ -51,7 +51,6 @@ data = json.loads(json_str)
 print(data["name"])  # Bob
 
 
-
 # json.load(file)
 with open(r"D:\code\Python\py_study\Py_module\data\json_test.json", "r") as f:
     data = json.load(f)
@@ -97,12 +96,15 @@ print(json_str) # {"name": "张三"}
 # 处理无法直接序列化的对象（如日期、自定义类）
 from datetime import datetime
 
+
+
 def custom_serializer(obj):
     if isinstance(obj, datetime):
         return obj.isoformat()
     raise TypeError("Type not serializable")
 
 data = {"time": datetime.now()}
+# 对于无直接序列化的值进行 default
 json_str = json.dumps(data, default=custom_serializer)
 
 print(json_str)
